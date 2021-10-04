@@ -1,6 +1,6 @@
 [![Auth0 Training](https://user-images.githubusercontent.com/73120/125103885-a2bb5d80-e091-11eb-8084-383003f1e484.png "Auth0 Training")](https://training.auth0.com)
 
-# Lab Node Creating Rules
+# Lab Node Working with Rules
 
 An auth0 training lab on creating rules.
 
@@ -19,7 +19,7 @@ To get started using this lab, ensure you have met the minimum [requirements](#r
 
 1. Clone this repository to your local machine.
   ```bash
-  git clone https://github.com/auth0-training/labs-node-creating-rules.git
+  git clone https://github.com/auth0-training/labs-node-working-with-rules.git
   ```
 2. Start Docker Desktop.
 3. Open the directory containing the source code in VSCode.
