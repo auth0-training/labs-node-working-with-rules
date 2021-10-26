@@ -1,13 +1,13 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
 // https://github.com/microsoft/vscode-dev-containers/tree/v0.191.1/containers/javascript-node
 {
-	"name": "labs-node-working-with-rules",
+  "name": "labs-node-working-with-rules",
   "dockerComposeFile": "docker-compose.yml",
   "service":"lab",
   "workspaceFolder": "/workspace",
   "settings": {},
-	// Add the IDs of extensions you want installed when the container is created.
-	"extensions": [
+  // Add the IDs of extensions you want installed when the container is created.
+  "extensions": [
     "dbaeumer.vscode-eslint",
     "EditorConfig.EditorConfig",
     "hjb2012.vscode-es6-string-html",
@@ -16,21 +16,15 @@
     "auth0.vscode-labs",
     "hjb2012.vscode-es6-string-html",
     "humao.rest-client",
- 		"esbenp.prettier-vscode",
-		"mikestead.dotenv",
-		],
-
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	"forwardPorts": [
+    "esbenp.prettier-vscode",
+    "mikestead.dotenv",
+  ],
+  // Use 'forwardPorts' to make a list of ports inside the container available locally.
+  "forwardPorts": [
     7000,
     5000
   ],
-
-	// Use 'postCreateCommand' to run commands after the container is created.
-	// Use this to install dependencies for the lab only
-	//"postCreateCommand": "npm install",
-	// Use this to install dependencies for the lab and sample apps in the source directory
-	"shutdownAction": "stopCompose",
+  "shutdownAction": "stopCompose",
   "postCreateCommand": "npm run init",
   "remoteUser": "node"
 }
