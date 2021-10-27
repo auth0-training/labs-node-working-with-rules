@@ -24,7 +24,7 @@
       "directory": "src/api",
       "env": {
         "ISSUER_BASE_URL": "$tenant_base_url",
-        "ALLOWED_AUDIENCES": "$identifier",
+        "AUDIENCE": "$identifier",
         "PORT": 5000
       }
     }
